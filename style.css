@@ -166,3 +166,128 @@ body {
     width: 37%;
     transform: skewY(-15deg);
 }
+
+.workout-container {
+    width: 550px;
+    height: 150px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.workout-title {
+    color: white;
+}
+
+.workout-btn {
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.services-container {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    color: white;
+    color: black;
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-1 {
+    width: 200px;
+    height: 360px;
+    border: 10px;
+    margin: 20px;
+    /* border: 1px solid rgb(33, 33, 33);  */
+    box-shadow: 8px 8px 16px rgb(17, 16, 16);
+    border-radius: 5px;
+    /* background-color:rgb(8, 8, 8) */
+    /* padding: 10px; */
+}
+
+.service-description {
+    padding: 10px;
+}
+
+.service-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fitnss-color {
+    color: red;
+}
+
+.service-price {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trainer {
+    font-size: 17px;
+}
+
+.fitnss-color2 {
+    color: red;
+    font-size: 14px;
+}
+
+.batch-image {
+    position: relative;
+}
+
+.batch-img {
+    top: -30px;
+    left: 85%;
+    width: 70px;
+    position: absolute;
+}
+
+.footer-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-top: 1px solid gray;
+}
+
+.footer-content {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.footer-social a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.footer-social a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
